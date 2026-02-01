@@ -1,0 +1,27 @@
+<div class="business-card">
+  <header>
+    <div class="logo-container">
+      <h1 class="logo-text">MGM.Mq</h1>
+    </div>
+    <h2>Soins de Beauté &amp; Intelligence Artificielle</h2>
+    <p>Твой баланс между телом и технологиями на Мартинике</p>
+  </header>
+
+  <section class="services-container">
+    <div class="service-card beauty">
+      <div class="icon">🌸</div>
+      <h3>Массаж &amp; Педикюр</h3>
+      <p>Профессиональный уход с выездом на дом.</p>
+    </div>
+    <div class="service-card ai">
+      <div class="icon">🤖</div>
+      <h3>Интеграция ИИ</h3>
+      <p>Настройка умных помощников для вашего бизнеса.</p>
+    </div>
+  </section>
+
+  <footer>
+    <button id="bookBtn" onclick="toggleBooking()">Записаться на сеанс</button>
+    <p id="bookingMessage" class="hidden">Отлично! Свяжитесь со мной в WhatsApp для выбора времени.</p>
+  </footer>
+</div>
